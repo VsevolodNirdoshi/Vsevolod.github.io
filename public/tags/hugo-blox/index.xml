@@ -1,0 +1,552 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hugo Blox | BioS</title>
+    <link>http://localhost:1313/Vsevolod.github.io.com/tags/hugo-blox/</link>
+      <atom:link href="http://localhost:1313/Vsevolod.github.io.com/tags/hugo-blox/index.xml" rel="self" type="application/rss+xml" />
+    <description>Hugo Blox</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 27 Oct 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/Vsevolod.github.io.com/media/icon_hu7729264130191091259.png</url>
+      <title>Hugo Blox</title>
+      <link>http://localhost:1313/Vsevolod.github.io.com/tags/hugo-blox/</link>
+    </image>
+    
+    <item>
+      <title>Создаю учетную запись на портале GitHub</title>
+      <link>http://localhost:1313/Vsevolod.github.io.com/post/get-started/</link>
+      <pubDate>Fri, 27 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/Vsevolod.github.io.com/post/get-started/</guid>
+      <description>&lt;h1 id=&#34;цель-работы&#34;&gt;Цель работы&lt;/h1&gt;
+&lt;p&gt;Научиться работать с системой контроля версий git. Ознакомиться и испробовать базовые конфигурации. Загрузить данные из репозитория и изменить их при помощи функций git.&lt;/p&gt;
+&lt;h1 id=&#34;задание&#34;&gt;Задание&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;Зарегистрироваться на Github.&lt;/li&gt;
+&lt;li&gt;Создать базовую конфигурацию для работы с git.&lt;/li&gt;
+&lt;li&gt;Создать ключ SSH.&lt;/li&gt;
+&lt;li&gt;Создать ключ PGP.&lt;/li&gt;
+&lt;li&gt;Настроить подписи git.&lt;/li&gt;
+&lt;li&gt;Создать локальный каталог для выполнения заданий по предмету.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1 id=&#34;теоретическое-введение&#34;&gt;Теоретическое введение&lt;/h1&gt;
+&lt;h2 id=&#34;базовая-настройка-git&#34;&gt;Базовая настройка git&lt;/h2&gt;
+&lt;p&gt;git config &amp;ndash;global user.name &amp;ldquo;Name Surname&amp;rdquo; - задает имя владельца репозитория&lt;/p&gt;
+&lt;p&gt;git config &amp;ndash;global user.email &amp;ldquo;work@mail&amp;rdquo; - задает email владельца репозитория&lt;/p&gt;
+&lt;p&gt;git config &amp;ndash;global core.quotepath false - настройка utf-8 в выводе сообщений git&lt;/p&gt;
+&lt;p&gt;git config &amp;ndash;global init.defaultBranch master - задает имя начальной ветки&lt;/p&gt;
+&lt;p&gt;git config &amp;ndash;global core.autocrlf input - настройка параметра autocrlf&lt;/p&gt;
+&lt;p&gt;git config &amp;ndash;global core.safecrlf warn - настройка параметра safecrlf&lt;/p&gt;
+&lt;h2 id=&#34;команды-для-создания-ключей-ssh&#34;&gt;Команды для создания ключей ssh&lt;/h2&gt;
+&lt;p&gt;ssh-keygen -t rsa -b 4096 - по алгоритму rsa с ключём размером 4096 бит&lt;/p&gt;
+&lt;p&gt;ssh-keygen -t ed25519 - – по алгоритму ed25519&lt;/p&gt;
+&lt;h2 id=&#34;команды-для-работы-с-ключами-gpg&#34;&gt;Команды для работы с ключами gpg&lt;/h2&gt;
+&lt;p&gt;gpg &amp;ndash;full-generate-key - генерация gpg ключа с настройками&lt;/p&gt;
+&lt;p&gt;gpg &amp;ndash;list-secret-keys &amp;ndash;keyid-format LONG - вывод списка ключей&lt;/p&gt;
+&lt;p&gt;gpg &amp;ndash;armor &amp;ndash;export &lt;PGP Fingerprint&gt; | xclip -sel clip - копирование ключа в буфер обмена&lt;/p&gt;
+&lt;h2 id=&#34;команды-для-настройки-автоматических-подписей-коммитов-git&#34;&gt;Команды для настройки автоматических подписей коммитов git&lt;/h2&gt;
+&lt;p&gt;git config &amp;ndash;global user.signingkey &lt;PGP Fingerprint&gt;&lt;/p&gt;
+&lt;p&gt;git config &amp;ndash;global commit.gpgsign true&lt;/p&gt;
+&lt;p&gt;git config &amp;ndash;global gpg.program $(which gpg2)&lt;/p&gt;
+&lt;h2 id=&#34;для-настройки-каталога-курса&#34;&gt;Для настройки каталога курса&lt;/h2&gt;
+&lt;p&gt;cd - переход в нужную папку&lt;/p&gt;
+&lt;p&gt;make - создание новой папки/файла&lt;/p&gt;
+&lt;p&gt;rm - удаление ненужной папки/файла&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;Отправка файлов на сервер:&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;git add .&lt;/p&gt;
+&lt;p&gt;git commit -am &amp;lsquo;feat(main): make course structure&amp;rsquo;&lt;/p&gt;
+&lt;p&gt;git push&lt;/p&gt;
+&lt;h1 id=&#34;выполнение-лабораторной-работы&#34;&gt;Выполнение лабораторной работы&lt;/h1&gt;
+&lt;h2 id=&#34;1-зарегистрироваться-на-github&#34;&gt;1) Зарегистрироваться на Github.&lt;/h2&gt;
+&lt;p&gt;Создаю учетную запись на портале GitHub, для загрузки репозитория и взаимодействия с файлами, через сохраненную копию на компьютере. Ссылка на профиль 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Профиль на GitHub&#34; srcset=&#34;
+               /Vsevolod.github.io.com/post/get-started/photo1_hu522704382968558837.webp 400w,
+               /Vsevolod.github.io.com/post/get-started/photo1_hu6137806220878681238.webp 760w,
+               /Vsevolod.github.io.com/post/get-started/photo1_hu17218113667818212802.webp 1200w&#34;
+               src=&#34;http://localhost:1313/Vsevolod.github.io.com/Vsevolod.github.io.com/post/get-started/photo1_hu522704382968558837.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;357&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;2-создать-базовую-конфигурацию-для-работы-с-git&#34;&gt;2) Создать базовую конфигурацию для работы с git.&lt;/h2&gt;
+&lt;h3 id=&#34;установка-программного-обеспечения&#34;&gt;&lt;em&gt;&lt;strong&gt;Установка программного обеспечения&lt;/strong&gt;&lt;/em&gt;&lt;/h3&gt;
+&lt;p&gt;Устанавливаю программное обеспечение ubuntu.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Установка при помощи пакета ubuntu&#34; srcset=&#34;
+               /Vsevolod.github.io.com/post/get-started/config1_hu8970835897106559240.webp 400w,
+               /Vsevolod.github.io.com/post/get-started/config1_hu17467519825904666644.webp 760w,
+               /Vsevolod.github.io.com/post/get-started/config1_hu1987859648659338191.webp 1200w&#34;
+               src=&#34;http://localhost:1313/Vsevolod.github.io.com/Vsevolod.github.io.com/post/get-started/config1_hu8970835897106559240.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;367&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h3 id=&#34;базовая-настройка-git-1&#34;&gt;&lt;em&gt;&lt;strong&gt;Базовая настройка git&lt;/strong&gt;&lt;/em&gt;&lt;/h3&gt;
+&lt;p&gt;Задаю имя и почту владельца, а также настраиваю параметры языка.&lt;/p&gt;
+&lt;h2 id=&#34;3-создать-ключ-ssh&#34;&gt;3) Создать ключ SSH.&lt;/h2&gt;
+&lt;p&gt;Создаю ключи SSH.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;по алгоритму rsa&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Ключ SSH&#34; srcset=&#34;
+               /Vsevolod.github.io.com/post/get-started/photo3_hu13403900630721879512.webp 400w,
+               /Vsevolod.github.io.com/post/get-started/photo3_hu8015773080465984679.webp 760w,
+               /Vsevolod.github.io.com/post/get-started/photo3_hu14325033947454694748.webp 1200w&#34;
+               src=&#34;http://localhost:1313/Vsevolod.github.io.com/Vsevolod.github.io.com/post/get-started/photo3_hu13403900630721879512.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;540&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;4-создать-ключ-pgp&#34;&gt;4) Создать ключ PGP.&lt;/h2&gt;
+&lt;p&gt;Генерирую gpg ключ, со следующими параметрами:&lt;/p&gt;
+&lt;p&gt;– тип RSA and RSA;&lt;/p&gt;
+&lt;p&gt;– размер 4096;&lt;/p&gt;
+&lt;p&gt;– выберите срок действия; значение по умолчанию— 0 (срок действия не истекает
+никогда).&lt;/p&gt;
+&lt;p&gt;Добавляю ключи на аккаунт в GitHub. Для этого открываю на гитхаб Настройки/Ключи ssh и gpg и там добавляю их.&lt;/p&gt;
+&lt;p&gt;При помощи команды получаю отпечаток приватного ключа.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Добавление ключа&#34; srcset=&#34;
+               /Vsevolod.github.io.com/post/get-started/photo7_hu9379060581640274570.webp 400w,
+               /Vsevolod.github.io.com/post/get-started/photo7_hu9520996097500690714.webp 760w,
+               /Vsevolod.github.io.com/post/get-started/photo7_hu3173595729616493362.webp 1200w&#34;
+               src=&#34;http://localhost:1313/Vsevolod.github.io.com/Vsevolod.github.io.com/post/get-started/photo7_hu9379060581640274570.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;540&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Для получения gpg ключа использую команду заменяя фразу в скобках на полученный отпечаток приватного ключа.
+&lt;em&gt;&lt;strong&gt;gpg &amp;ndash;armor &amp;ndash;export &lt;PGP Fingerprint&gt;&lt;/strong&gt;&lt;/em&gt;
+которая выводит на экран сам ключ.&lt;/p&gt;
+&lt;h2 id=&#34;5-настроить-подписи-git&#34;&gt;5) Настроить подписи git.&lt;/h2&gt;
+&lt;p&gt;Задаю требования для подписи коммитов.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Настройка коммитов&#34; srcset=&#34;
+               /Vsevolod.github.io.com/post/get-started/photo9_hu2807370118905528252.webp 400w,
+               /Vsevolod.github.io.com/post/get-started/photo9_hu4821475997269927929.webp 760w,
+               /Vsevolod.github.io.com/post/get-started/photo9_hu17573559672393235387.webp 1200w&#34;
+               src=&#34;http://localhost:1313/Vsevolod.github.io.com/Vsevolod.github.io.com/post/get-started/photo9_hu2807370118905528252.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;266&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;6-создать-локальный-каталог-для-выполнения-заданий-по-предмету&#34;&gt;6) Создать локальный каталог для выполнения заданий по предмету.&lt;/h2&gt;
+&lt;p&gt;Создаю каталог и удаляю ненужные файлы, а дальше выгружаю репозиторий на GitHub.&lt;/p&gt;
+&lt;p&gt;Проверяю изменения зайдя на GitHub
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Измененный репозиторий&#34; srcset=&#34;
+               /Vsevolod.github.io.com/post/get-started/photo10_hu16141036163772706392.webp 400w,
+               /Vsevolod.github.io.com/post/get-started/photo10_hu6266933150683894513.webp 760w,
+               /Vsevolod.github.io.com/post/get-started/photo10_hu17800819062268352326.webp 1200w&#34;
+               src=&#34;http://localhost:1313/Vsevolod.github.io.com/Vsevolod.github.io.com/post/get-started/photo10_hu16141036163772706392.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;434&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h1 id=&#34;выводы&#34;&gt;Выводы&lt;/h1&gt;
+&lt;p&gt;В процессе работы я научился работать с системой контроля версий git. Ознакомился и испробовал базовые конфигурации. Загрузил данные из репозитория и изменил их при помощи функций git.&lt;/p&gt;
+&lt;h1 class=&#34;unnumbered&#34; id=&#34;список-литературы&#34;&gt;Список литературы&lt;/h1&gt;
+&lt;p&gt;::: Пособие по лабораторной работе 1 {https://esystem.rudn.ru/pluginfile.php/2372898/mod_resource/content/5/002-lab_vcs.pdf}
+::: Пособие по лабораторной работе 2 {https://esystem.rudn.ru/pluginfile.php/2372900/mod_resource/content/4/003-lab_markdown.pdf}&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>📈 Communicate your results effectively with the best data visualizations</title>
+      <link>http://localhost:1313/Vsevolod.github.io.com/post/data-visualization/</link>
+      <pubDate>Wed, 25 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/Vsevolod.github.io.com/post/data-visualization/</guid>
+      <description>&lt;p&gt;Hugo Blox is designed to give technical content creators a seamless experience. You can focus on the content and Hugo Blox handles the rest.&lt;/p&gt;
+&lt;p&gt;Use popular tools such as Plotly, Mermaid, and data frames.&lt;/p&gt;
+&lt;h2 id=&#34;charts&#34;&gt;Charts&lt;/h2&gt;
+&lt;p&gt;Hugo Blox supports the popular 
+ format for interactive data visualizations. With Plotly, you can design almost any kind of visualization you can imagine!&lt;/p&gt;
+&lt;p&gt;Save your Plotly JSON in your page folder, for example &lt;code&gt;line-chart.json&lt;/code&gt;, and then add the &lt;code&gt;{{&amp;lt; chart data=&amp;quot;line-chart&amp;quot; &amp;gt;}}&lt;/code&gt; shortcode where you would like the chart to appear.&lt;/p&gt;
+&lt;p&gt;Demo:&lt;/p&gt;
+
+
+
+
+&lt;div id=&#34;chart-185243967&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;script&gt;
+  async function fetchChartJSON() {
+    console.debug(&#39;Hugo Blox fetching chart JSON...&#39;)
+    const response = await fetch(&#39;.\/line-chart.json&#39;);
+    return await response.json();
+  }
+
+  (function() {
+    let a = setInterval( function() {
+      if ( typeof window.Plotly === &#39;undefined&#39; ) {
+        console.debug(&#39;Plotly not loaded yet...&#39;)
+        return;
+      }
+      clearInterval( a );
+
+      fetchChartJSON().then(chart =&gt; {
+        console.debug(&#39;Plotting chart...&#39;)
+        window.Plotly.newPlot(&#39;chart-185243967&#39;, chart.data, chart.layout, {responsive: true});
+      });
+    }, 500 );
+  })();
+&lt;/script&gt;
+
+&lt;p&gt;You might also find the 
+ useful.&lt;/p&gt;
+&lt;h2 id=&#34;diagrams&#34;&gt;Diagrams&lt;/h2&gt;
+&lt;p&gt;Hugo Blox supports the &lt;em&gt;Mermaid&lt;/em&gt; Markdown extension for diagrams.&lt;/p&gt;
+&lt;p&gt;An example &lt;strong&gt;flowchart&lt;/strong&gt;:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;```mermaid
+graph TD
+A[Hard] --&amp;gt;|Text| B(Round)
+B --&amp;gt; C{Decision}
+C --&amp;gt;|One| D[Result 1]
+C --&amp;gt;|Two| E[Result 2]
+```
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;renders as&lt;/p&gt;
+&lt;div class=&#34;mermaid&#34;&gt;graph TD
+A[Hard] --&gt;|Text| B(Round)
+B --&gt; C{Decision}
+C --&gt;|One| D[Result 1]
+C --&gt;|Two| E[Result 2]
+&lt;/div&gt;
+&lt;p&gt;An example &lt;strong&gt;sequence diagram&lt;/strong&gt;:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;```mermaid
+sequenceDiagram
+Alice-&amp;gt;&amp;gt;John: Hello John, how are you?
+loop Healthcheck
+    John-&amp;gt;&amp;gt;John: Fight against hypochondria
+end
+Note right of John: Rational thoughts!
+John--&amp;gt;&amp;gt;Alice: Great!
+John-&amp;gt;&amp;gt;Bob: How about you?
+Bob--&amp;gt;&amp;gt;John: Jolly good!
+```
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;renders as&lt;/p&gt;
+&lt;div class=&#34;mermaid&#34;&gt;sequenceDiagram
+Alice-&gt;&gt;John: Hello John, how are you?
+loop Healthcheck
+    John-&gt;&gt;John: Fight against hypochondria
+end
+Note right of John: Rational thoughts!
+John--&gt;&gt;Alice: Great!
+John-&gt;&gt;Bob: How about you?
+Bob--&gt;&gt;John: Jolly good!
+&lt;/div&gt;
+&lt;p&gt;An example &lt;strong&gt;class diagram&lt;/strong&gt;:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;```mermaid
+classDiagram
+Class01 &amp;lt;|-- AveryLongClass : Cool
+Class03 *-- Class04
+Class05 o-- Class06
+Class07 .. Class08
+Class09 --&amp;gt; C2 : Where am i?
+Class09 --* C3
+Class09 --|&amp;gt; Class07
+Class07 : equals()
+Class07 : Object[] elementData
+Class01 : size()
+Class01 : int chimp
+Class01 : int gorilla
+Class08 &amp;lt;--&amp;gt; C2: Cool label
+```
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;renders as&lt;/p&gt;
+&lt;div class=&#34;mermaid&#34;&gt;classDiagram
+Class01 &lt;|-- AveryLongClass : Cool
+Class03 *-- Class04
+Class05 o-- Class06
+Class07 .. Class08
+Class09 --&gt; C2 : Where am i?
+Class09 --* C3
+Class09 --|&gt; Class07
+Class07 : equals()
+Class07 : Object[] elementData
+Class01 : size()
+Class01 : int chimp
+Class01 : int gorilla
+Class08 &lt;--&gt; C2: Cool label
+&lt;/div&gt;
+&lt;p&gt;An example &lt;strong&gt;state diagram&lt;/strong&gt;:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;```mermaid
+stateDiagram
+[*] --&amp;gt; Still
+Still --&amp;gt; [*]
+Still --&amp;gt; Moving
+Moving --&amp;gt; Still
+Moving --&amp;gt; Crash
+Crash --&amp;gt; [*]
+```
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;renders as&lt;/p&gt;
+&lt;div class=&#34;mermaid&#34;&gt;stateDiagram
+[*] --&gt; Still
+Still --&gt; [*]
+Still --&gt; Moving
+Moving --&gt; Still
+Moving --&gt; Crash
+Crash --&gt; [*]
+&lt;/div&gt;
+&lt;h2 id=&#34;data-frames&#34;&gt;Data Frames&lt;/h2&gt;
+&lt;p&gt;Save your spreadsheet as a CSV file in your page&amp;rsquo;s folder and then render it by adding the &lt;em&gt;Table&lt;/em&gt; shortcode to your page:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-go&#34; data-lang=&#34;go&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;{{&amp;lt;&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;table&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;path&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;results.csv&amp;#34;&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;header&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;true&amp;#34;&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;caption&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;Table 1: My results&amp;#34;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;&amp;gt;}}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;renders as&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;table class=&#34;table-auto w-full&#34;&gt;
+  
+    
+    
+    &lt;thead&gt;
+      &lt;tr&gt;  &lt;th class=&#34;border-b dark:border-slate-600 font-medium p-4 pt-0 pb-3 text-slate-400 dark:text-slate-200 text-left&#34;&gt;customer_id&lt;/th&gt;  &lt;th class=&#34;border-b dark:border-slate-600 font-medium p-4 pt-0 pb-3 text-slate-400 dark:text-slate-200 text-left&#34;&gt;score&lt;/th&gt;  &lt;/tr&gt;
+    &lt;/thead&gt;
+  
+  &lt;tbody&gt;
+  
+    &lt;tr&gt;
+      
+        
+          &lt;td data-table-dtype=&#34;number&#34; class=&#34;border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400&#34;&gt;1&lt;/td&gt;
+        
+      
+        
+          &lt;td data-table-dtype=&#34;number&#34; class=&#34;border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400&#34;&gt;0&lt;/td&gt;
+        
+      
+    &lt;/tr&gt;
+  
+    &lt;tr&gt;
+      
+        
+          &lt;td data-table-dtype=&#34;number&#34; class=&#34;border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400&#34;&gt;2&lt;/td&gt;
+        
+      
+        
+          &lt;td data-table-dtype=&#34;text&#34; class=&#34;border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400&#34;&gt;0.5&lt;/td&gt;
+        
+      
+    &lt;/tr&gt;
+  
+    &lt;tr&gt;
+      
+        
+          &lt;td data-table-dtype=&#34;number&#34; class=&#34;border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400&#34;&gt;3&lt;/td&gt;
+        
+      
+        
+          &lt;td data-table-dtype=&#34;number&#34; class=&#34;border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400&#34;&gt;1&lt;/td&gt;
+        
+      
+    &lt;/tr&gt;
+  
+  &lt;/tbody&gt;
+  
+    &lt;caption class=&#34;table-caption&#34;&gt;Table 1: My results&lt;/caption&gt;
+  
+&lt;/table&gt;
+
+&lt;h2 id=&#34;did-you-find-this-page-helpful-consider-sharing-it-&#34;&gt;Did you find this page helpful? Consider sharing it 🙌&lt;/h2&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>✅ Manage your projects</title>
+      <link>http://localhost:1313/Vsevolod.github.io.com/post/project-management/</link>
+      <pubDate>Mon, 23 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/Vsevolod.github.io.com/post/project-management/</guid>
+      <description>&lt;p&gt;Easily manage your projects - create ideation mind maps, Gantt charts, todo lists, and more!&lt;/p&gt;
+&lt;h2 id=&#34;ideation&#34;&gt;Ideation&lt;/h2&gt;
+&lt;p&gt;Hugo Blox supports a Markdown extension for mindmaps.&lt;/p&gt;
+&lt;p&gt;Simply insert a Markdown code block labelled as &lt;code&gt;markmap&lt;/code&gt; and optionally set the height of the mindmap as shown in the example below.&lt;/p&gt;
+&lt;p&gt;Mindmaps can be created by simply writing the items as a Markdown list within the &lt;code&gt;markmap&lt;/code&gt; code block, indenting each item to create as many sub-levels as you need:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;
+&lt;code&gt;
+```markmap {height=&#34;200px&#34;}
+- Hugo Modules
+  - Hugo Blox
+  - blox-plugins-netlify
+  - blox-plugins-netlify-cms
+  - blox-plugins-reveal
+```
+&lt;/code&gt;
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;renders as&lt;/p&gt;
+&lt;div class=&#34;markmap&#34; style=&#34;height: 200px;&#34;&gt;
+
+&lt;pre&gt;- Hugo Modules
+  - Hugo Blox
+  - blox-plugins-netlify
+  - blox-plugins-netlify-cms
+  - blox-plugins-reveal&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;diagrams&#34;&gt;Diagrams&lt;/h2&gt;
+&lt;p&gt;Hugo Blox supports the &lt;em&gt;Mermaid&lt;/em&gt; Markdown extension for diagrams.&lt;/p&gt;
+&lt;p&gt;An example &lt;strong&gt;Gantt diagram&lt;/strong&gt;:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;```mermaid
+gantt
+section Section
+Completed :done,    des1, 2014-01-06,2014-01-08
+Active        :active,  des2, 2014-01-07, 3d
+Parallel 1   :         des3, after des1, 1d
+Parallel 2   :         des4, after des1, 1d
+Parallel 3   :         des5, after des3, 1d
+Parallel 4   :         des6, after des4, 1d
+```
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;renders as&lt;/p&gt;
+&lt;div class=&#34;mermaid&#34;&gt;gantt
+section Section
+Completed :done,    des1, 2014-01-06,2014-01-08
+Active        :active,  des2, 2014-01-07, 3d
+Parallel 1   :         des3, after des1, 1d
+Parallel 2   :         des4, after des1, 1d
+Parallel 3   :         des5, after des3, 1d
+Parallel 4   :         des6, after des4, 1d
+&lt;/div&gt;
+&lt;h2 id=&#34;todo-lists&#34;&gt;Todo lists&lt;/h2&gt;
+&lt;p&gt;You can even write your todo lists in Markdown too:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;- [x]&lt;/span&gt; Write math example
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;k&#34;&gt;- [x]&lt;/span&gt; Write diagram example
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;- [ ]&lt;/span&gt; Do something else
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;renders as&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Write math example
+&lt;ul&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Write diagram example&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Do something else&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;did-you-find-this-page-helpful-consider-sharing-it-&#34;&gt;Did you find this page helpful? Consider sharing it 🙌&lt;/h2&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,12 +1,7 @@
 ---
-title: 🎉 Easily create your own simple yet highly customizable blog
+title: Создаю учетную запись на портале GitHub
 summary: Take full control of your personal brand and privacy by migrating away from the big tech platforms!
 date: 2023-10-27
-
-# Featured image
-# Place an image named `featured.jpg/png` in this page's folder and customize its options here.
-image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
 
 authors:
   - admin
@@ -18,69 +13,142 @@ tags:
   - Markdown
 ---
 
-Welcome 👋
+# Цель работы
 
-{{< toc mobile_only=true is_open=true >}}
+Научиться работать с системой контроля версий git. Ознакомиться и испробовать базовые конфигурации. Загрузить данные из репозитория и изменить их при помощи функций git.
 
-## Overview
+# Задание
 
-1. The Hugo Blox website builder for Hugo, along with its starter templates, is designed for professional creators, educators, and teams/organizations - although it can be used to create any kind of site
-2. The template can be modified and customised to suit your needs. It's a good platform for anyone looking to take control of their data and online identity whilst having the convenience to start off with a **no-code solution (write in Markdown and customize with YAML parameters)** and having **flexibility to later add even deeper personalization with HTML and CSS**
-3. You can work with all your favourite tools and apps with hundreds of plugins and integrations to speed up your workflows, interact with your readers, and much more
+1) Зарегистрироваться на Github.
+2) Создать базовую конфигурацию для работы с git.
+3) Создать ключ SSH.
+4) Создать ключ PGP.
+5) Настроить подписи git.
+6) Создать локальный каталог для выполнения заданий по предмету.
 
-[//]: # ([![The template is mobile first with a responsive design to ensure that your site looks stunning on every device.]&#40;https://raw.githubusercontent.com/wowchemy/wowchemy-hugo-modules/main/starters/academic/preview.png&#41;]&#40;https://hugoblox.com&#41;)
+# Теоретическое введение
 
-### Get Started
+## Базовая настройка git
 
-- 👉 [**Create a new site**](https://hugoblox.com/templates/)
-- 📚 [**Personalize your site**](https://docs.hugoblox.com/)
-- 💬 [Chat with the **Hugo Blox community**](https://discord.gg/z8wNYzb) or [**Hugo community**](https://discourse.gohugo.io)
-- 🐦 Twitter: [@GetResearchDev](https://twitter.com/GetResearchDev) [@GeorgeCushen](https://twitter.com/GeorgeCushen) #MadeWithHugoBlox
-- 💡 [Request a **feature** or report a **bug** for _Hugo Blox_](https://github.com/HugoBlox/hugo-blox-builder/issues)
-- ⬆️ **Updating Hugo Blox?** View the [Update Guide](https://docs.hugoblox.com/reference/update/) and [Release Notes](https://github.com/HugoBlox/hugo-blox-builder/releases)
+git config --global user.name "Name Surname" - задает имя владельца репозитория
 
-## Crowd-funded open-source software
+git config --global user.email "work@mail" - задает email владельца репозитория
 
-To help us develop this template and software sustainably under the MIT license, we ask all individuals and businesses that use it to help support its ongoing maintenance and development via sponsorship.
+git config --global core.quotepath false - настройка utf-8 в выводе сообщений git
 
-### [❤️ Click here to become a sponsor and help support Hugo Blox's future ❤️](https://hugoblox.com/sponsor/)
+git config --global init.defaultBranch master - задает имя начальной ветки
 
-As a token of appreciation for sponsoring, you can **unlock [these](https://hugoblox.com/sponsor/) awesome rewards and extra features 🦄✨**
+git config --global core.autocrlf input - настройка параметра autocrlf
 
-## Ecosystem
+git config --global core.safecrlf warn - настройка параметра safecrlf
 
-- **[Bibtex To Markdown](https://github.com/GetRD/academic-file-converter):** Automatically import publications from BibTeX
+## Команды для создания ключей ssh
 
-## Inspiration
+ssh-keygen -t rsa -b 4096 - по алгоритму rsa с ключём размером 4096 бит
 
-[Learn what other **creators**](https://hugoblox.com/creators/) are building with this template.
+ssh-keygen -t ed25519 - – по алгоритму ed25519
 
-## Features
+## Команды для работы с ключами gpg
 
-- **Page builder** - Create _anything_ with no-code [**blocks**](https://hugoblox.com/blocks/) and [**elements**](https://docs.hugoblox.com/reference/markdown/)
-- **Edit any type of content** - Blog posts, publications, talks, slides, projects, and more!
-- **Create content** in [**Markdown**](https://docs.hugoblox.com/reference/markdown/), [**Jupyter**](https://docs.hugoblox.com/getting-started/cms/), or [**RStudio**](https://docs.hugoblox.com/getting-started/cms/)
-- **Plugin System** - Fully customizable [**color** and **font themes**](https://docs.hugoblox.com/getting-started/customize/)
-- **Display Code and Math** - Code syntax highlighting and LaTeX math supported
-- **Integrations** - [Google Analytics](https://analytics.google.com), [Disqus commenting](https://disqus.com), Maps, Contact Forms, and more!
-- **Beautiful Site** - Simple and refreshing one-page design
-- **Industry-Leading SEO** - Help get your website found on search engines and social media
-- **Media Galleries** - Display your images and videos with captions in a customizable gallery
-- **Mobile Friendly** - Look amazing on every screen with a mobile friendly version of your site
-- **Multi-language** - 35+ language packs including English, 中文, and Português
-- **Multi-user** - Each author gets their own profile page
-- **Privacy Pack** - Assists with GDPR
-- **Stand Out** - Bring your site to life with animation, parallax backgrounds, and scroll effects
-- **One-Click Deployment** - No servers. No databases. Only files.
+gpg --full-generate-key - генерация gpg ключа с настройками
 
-## Themes
+gpg --list-secret-keys --keyid-format LONG - вывод списка ключей
 
-Hugo Blox and its templates come with **automatic day (light) and night (dark) mode** built-in. Visitors can choose their preferred mode by clicking the sun/moon icon in the header.
+gpg --armor --export <PGP Fingerprint> | xclip -sel clip - копирование ключа в буфер обмена
 
-[Choose a stunning **theme** and **font**](https://docs.hugoblox.com/getting-started/customize/) for your site. Themes are fully customizable.
+## Команды для настройки автоматических подписей коммитов git
 
-## License
+git config --global user.signingkey <PGP Fingerprint>
 
-Copyright 2016-present [George Cushen](https://georgecushen.com).
+git config --global commit.gpgsign true
 
-Released under the [MIT](https://github.com/HugoBlox/hugo-blox-builder/blob/main/LICENSE.md) license.
+git config --global gpg.program $(which gpg2)
+
+## Для настройки каталога курса
+
+cd - переход в нужную папку
+
+make - создание новой папки/файла
+
+rm - удаление ненужной папки/файла
+
+***Отправка файлов на сервер:***
+
+git add .
+
+git commit -am 'feat(main): make course structure'
+
+git push
+
+
+# Выполнение лабораторной работы
+
+## 1) Зарегистрироваться на Github.
+
+Создаю учетную запись на портале GitHub, для загрузки репозитория и взаимодействия с файлами, через сохраненную копию на компьютере. Ссылка на профиль https://github.com/VsevolodNirdoshi
+![Профиль на GitHub](/photo1.png)
+
+## 2) Создать базовую конфигурацию для работы с git.
+
+### ***Установка программного обеспечения***
+
+Устанавливаю программное обеспечение ubuntu.
+
+![Установка при помощи пакета ubuntu](/config1.png)
+
+
+
+### ***Базовая настройка git***
+
+Задаю имя и почту владельца, а также настраиваю параметры языка.
+
+
+## 3) Создать ключ SSH.
+
+Создаю ключи SSH.
+- по алгоритму rsa
+
+![Ключ SSH](/photo3.PNG)
+
+
+
+## 4) Создать ключ PGP.
+
+Генерирую gpg ключ, со следующими параметрами:
+
+– тип RSA and RSA;
+
+– размер 4096;
+
+– выберите срок действия; значение по умолчанию— 0 (срок действия не истекает
+никогда).
+
+
+Добавляю ключи на аккаунт в GitHub. Для этого открываю на гитхаб Настройки/Ключи ssh и gpg и там добавляю их.
+
+При помощи команды получаю отпечаток приватного ключа.
+![Добавление ключа](/photo7.PNG)
+
+Для получения gpg ключа использую команду заменяя фразу в скобках на полученный отпечаток приватного ключа.
+***gpg --armor --export <PGP Fingerprint>***
+которая выводит на экран сам ключ.
+
+## 5) Настроить подписи git.
+
+Задаю требования для подписи коммитов.
+![Настройка коммитов](/photo9.PNG)
+
+## 6) Создать локальный каталог для выполнения заданий по предмету.
+
+Создаю каталог и удаляю ненужные файлы, а дальше выгружаю репозиторий на GitHub.
+
+Проверяю изменения зайдя на GitHub
+![Измененный репозиторий](/photo10.png)
+# Выводы
+
+В процессе работы я научился работать с системой контроля версий git. Ознакомился и испробовал базовые конфигурации. Загрузил данные из репозитория и изменил их при помощи функций git.
+
+# Список литературы{.unnumbered}
+
+::: Пособие по лабораторной работе 1 {https://esystem.rudn.ru/pluginfile.php/2372898/mod_resource/content/5/002-lab_vcs.pdf}
+::: Пособие по лабораторной работе 2 {https://esystem.rudn.ru/pluginfile.php/2372900/mod_resource/content/4/003-lab_markdown.pdf}
