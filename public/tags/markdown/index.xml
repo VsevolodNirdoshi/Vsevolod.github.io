@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Markdown | BioS</title>
+    <title>Markdown | Bio</title>
     <link>http://localhost:1313/Vsevolod.github.io.com/tags/markdown/</link>
       <atom:link href="http://localhost:1313/Vsevolod.github.io.com/tags/markdown/index.xml" rel="self" type="application/rss+xml" />
     <description>Markdown</description>
@@ -78,10 +78,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;flex justify-center	&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Профиль на GitHub&#34; srcset=&#34;
-               /Vsevolod.github.io.com/post/get-started/photo1_hu522704382968558837.webp 400w,
+               /Vsevolod.github.io.com/post/get-started/photo1_hu9978148619090352753.webp 400w,
                /Vsevolod.github.io.com/post/get-started/photo1_hu6137806220878681238.webp 760w,
                /Vsevolod.github.io.com/post/get-started/photo1_hu17218113667818212802.webp 1200w&#34;
-               src=&#34;http://localhost:1313/Vsevolod.github.io.com/Vsevolod.github.io.com/post/get-started/photo1_hu522704382968558837.webp&#34;
+               src=&#34;http://localhost:1313/Vsevolod.github.io.com/Vsevolod.github.io.com/post/get-started/photo1_hu9978148619090352753.webp&#34;
                width=&#34;760&#34;
                height=&#34;357&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -144,10 +144,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;flex justify-center	&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Ключ SSH&#34; srcset=&#34;
-               /Vsevolod.github.io.com/post/get-started/photo3_hu13403900630721879512.webp 400w,
+               /Vsevolod.github.io.com/post/get-started/photo3_hu2249790566933023229.webp 400w,
                /Vsevolod.github.io.com/post/get-started/photo3_hu8015773080465984679.webp 760w,
                /Vsevolod.github.io.com/post/get-started/photo3_hu14325033947454694748.webp 1200w&#34;
-               src=&#34;http://localhost:1313/Vsevolod.github.io.com/Vsevolod.github.io.com/post/get-started/photo3_hu13403900630721879512.webp&#34;
+               src=&#34;http://localhost:1313/Vsevolod.github.io.com/Vsevolod.github.io.com/post/get-started/photo3_hu2249790566933023229.webp&#34;
                width=&#34;760&#34;
                height=&#34;540&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -180,10 +180,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;flex justify-center	&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Добавление ключа&#34; srcset=&#34;
-               /Vsevolod.github.io.com/post/get-started/photo7_hu9379060581640274570.webp 400w,
+               /Vsevolod.github.io.com/post/get-started/photo7_hu13314423799369871249.webp 400w,
                /Vsevolod.github.io.com/post/get-started/photo7_hu9520996097500690714.webp 760w,
                /Vsevolod.github.io.com/post/get-started/photo7_hu3173595729616493362.webp 1200w&#34;
-               src=&#34;http://localhost:1313/Vsevolod.github.io.com/Vsevolod.github.io.com/post/get-started/photo7_hu9379060581640274570.webp&#34;
+               src=&#34;http://localhost:1313/Vsevolod.github.io.com/Vsevolod.github.io.com/post/get-started/photo7_hu13314423799369871249.webp&#34;
                width=&#34;760&#34;
                height=&#34;540&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -213,10 +213,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;flex justify-center	&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Настройка коммитов&#34; srcset=&#34;
-               /Vsevolod.github.io.com/post/get-started/photo9_hu2807370118905528252.webp 400w,
+               /Vsevolod.github.io.com/post/get-started/photo9_hu1337820418225008979.webp 400w,
                /Vsevolod.github.io.com/post/get-started/photo9_hu4821475997269927929.webp 760w,
                /Vsevolod.github.io.com/post/get-started/photo9_hu17573559672393235387.webp 1200w&#34;
-               src=&#34;http://localhost:1313/Vsevolod.github.io.com/Vsevolod.github.io.com/post/get-started/photo9_hu2807370118905528252.webp&#34;
+               src=&#34;http://localhost:1313/Vsevolod.github.io.com/Vsevolod.github.io.com/post/get-started/photo9_hu1337820418225008979.webp&#34;
                width=&#34;760&#34;
                height=&#34;266&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -244,10 +244,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;flex justify-center	&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Измененный репозиторий&#34; srcset=&#34;
-               /Vsevolod.github.io.com/post/get-started/photo10_hu16141036163772706392.webp 400w,
+               /Vsevolod.github.io.com/post/get-started/photo10_hu964970125745708707.webp 400w,
                /Vsevolod.github.io.com/post/get-started/photo10_hu6266933150683894513.webp 760w,
                /Vsevolod.github.io.com/post/get-started/photo10_hu17800819062268352326.webp 1200w&#34;
-               src=&#34;http://localhost:1313/Vsevolod.github.io.com/Vsevolod.github.io.com/post/get-started/photo10_hu16141036163772706392.webp&#34;
+               src=&#34;http://localhost:1313/Vsevolod.github.io.com/Vsevolod.github.io.com/post/get-started/photo10_hu964970125745708707.webp&#34;
                width=&#34;760&#34;
                height=&#34;434&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -414,7 +414,7 @@
 
 
 
-&lt;div id=&#34;chart-185243967&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-287439165&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   async function fetchChartJSON() {
     console.debug(&#39;Hugo Blox fetching chart JSON...&#39;)
@@ -432,7 +432,7 @@
 
       fetchChartJSON().then(chart =&gt; {
         console.debug(&#39;Plotting chart...&#39;)
-        window.Plotly.newPlot(&#39;chart-185243967&#39;, chart.data, chart.layout, {responsive: true});
+        window.Plotly.newPlot(&#39;chart-287439165&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
