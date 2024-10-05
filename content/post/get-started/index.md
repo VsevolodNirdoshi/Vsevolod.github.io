@@ -1,6 +1,6 @@
 ---
 title: Создаю учетную запись на портале GitHub
-summary: Take full control of your personal brand and privacy by migrating away from the big tech platforms!
+summary: Научиться работать с системой контроля версий git. Ознакомиться и испробовать базовые конфигурации. Загрузить данные из репозитория и изменить их при помощи функций git.
 date: 2023-10-27
 
 authors:
