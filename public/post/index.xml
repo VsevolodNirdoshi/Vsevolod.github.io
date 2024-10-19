@@ -5,7 +5,7 @@
     <link>http://localhost:1313/Vsevolod.github.io.com/post/</link>
       <atom:link href="http://localhost:1313/Vsevolod.github.io.com/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Blog</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 27 Oct 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 19 Oct 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>http://localhost:1313/Vsevolod.github.io.com/media/icon_hu7729264130191091259.png</url>
       <title>Blog</title>
@@ -13,9 +13,225 @@
     </image>
     
     <item>
+      <title>Добавлять и изменять данные о себею</title>
+      <link>http://localhost:1313/Vsevolod.github.io.com/post/second-brain/</link>
+      <pubDate>Sat, 19 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/Vsevolod.github.io.com/post/second-brain/</guid>
+      <description>&lt;h1 id=&#34;цель-работы&#34;&gt;Цель работы&lt;/h1&gt;
+&lt;p&gt;Провести работу с ранее созданным сайтом. Научится добавлять и изменять данные о себе. Научиться создавать новые посты на сайте.&lt;/p&gt;
+&lt;h1 id=&#34;задание---добавить-к-сайту-данные-о-себе&#34;&gt;Задание - добавить к сайту данные о себе.&lt;/h1&gt;
+&lt;h2 id=&#34;список-добавляемых-данных&#34;&gt;Список добавляемых данных.&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Разместить фотографию владельца сайта.&lt;/li&gt;
+&lt;li&gt;Разместить краткое описание владельца сайта (Biography).&lt;/li&gt;
+&lt;li&gt;Добавить информацию об интересах (Interests).&lt;/li&gt;
+&lt;li&gt;Добавить информацию от образовании (Education).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;сделать-пост-по-прошедшей-неделе&#34;&gt;Сделать пост по прошедшей неделе.&lt;/h2&gt;
+&lt;p&gt;Добавить пост на тему по выбору:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Управление версиями. Git.&lt;/li&gt;
+&lt;li&gt;Непрерывная интеграция и непрерывное развертывание (CI/CD).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;выполнение-работы&#34;&gt;Выполнение работы&lt;/h1&gt;
+&lt;h2 id=&#34;я-начал-работу-с-добавления-данных-о-себе&#34;&gt;Я начал работу с добавления данных о себе.&lt;/h2&gt;
+&lt;p&gt;Используя VScode и установленный в него GitHub Pull Request начал редактировать данные о себе открыв документ
+D:\Vsevolod.github.io&lt;/p&gt;
+&lt;p&gt;Первым делом разместил новый файл avatar.jpg со своеё фотографией.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Замена фото&#34; srcset=&#34;
+               /Vsevolod.github.io.com/post/second-brain/1_hu13748459816102532212.webp 400w,
+               /Vsevolod.github.io.com/post/second-brain/1_hu1464928390119527684.webp 760w,
+               /Vsevolod.github.io.com/post/second-brain/1_hu3908250948256015250.webp 1200w&#34;
+               src=&#34;http://localhost:1313/Vsevolod.github.io.com/Vsevolod.github.io.com/post/second-brain/1_hu13748459816102532212.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;411&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Далее разместил своё краткое описание (Biography).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Добавил информацию о своих интересах (Interests).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;И добавил информацию об образовании (Education).&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Описание&#34; srcset=&#34;
+               /Vsevolod.github.io.com/post/second-brain/2_hu8073099787996437167.webp 400w,
+               /Vsevolod.github.io.com/post/second-brain/2_hu15593155809043963883.webp 760w,
+               /Vsevolod.github.io.com/post/second-brain/2_hu17360078559565914249.webp 1200w&#34;
+               src=&#34;http://localhost:1313/Vsevolod.github.io.com/Vsevolod.github.io.com/post/second-brain/2_hu8073099787996437167.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;445&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;После зашел и проверил изменение на странице сайта, для того, чтобы проверить результат&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Сайт с добавлением изменений&#34; srcset=&#34;
+               /Vsevolod.github.io.com/post/second-brain/3_hu17523993240688050641.webp 400w,
+               /Vsevolod.github.io.com/post/second-brain/3_hu11443423773640563554.webp 760w,
+               /Vsevolod.github.io.com/post/second-brain/3_hu6101704373862279048.webp 1200w&#34;
+               src=&#34;http://localhost:1313/Vsevolod.github.io.com/Vsevolod.github.io.com/post/second-brain/3_hu17523993240688050641.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;320&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;добавление-поста&#34;&gt;Добавление поста&lt;/h2&gt;
+&lt;p&gt;Далее я перешел к созданию нового поста и его публикации.
+Для поста я выбрал тему &amp;ldquo;Создаю учетную запись на портале GitHub&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Создание нового поста&#34; srcset=&#34;
+               /Vsevolod.github.io.com/post/second-brain/4_hu2600420076689663814.webp 400w,
+               /Vsevolod.github.io.com/post/second-brain/4_hu15496315929260935135.webp 760w,
+               /Vsevolod.github.io.com/post/second-brain/4_hu17981468800961787245.webp 1200w&#34;
+               src=&#34;http://localhost:1313/Vsevolod.github.io.com/Vsevolod.github.io.com/post/second-brain/4_hu2600420076689663814.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;429&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;И также как и ранее после добавления изменений в репозиторий, зашел на страницу сайта где нашёл опубликованный пост&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Отображение данных о посте на главной странице&#34; srcset=&#34;
+               /Vsevolod.github.io.com/post/second-brain/5_hu11706442280742795153.webp 400w,
+               /Vsevolod.github.io.com/post/second-brain/5_hu14825559945175343744.webp 760w,
+               /Vsevolod.github.io.com/post/second-brain/5_hu16177052232992094827.webp 1200w&#34;
+               src=&#34;http://localhost:1313/Vsevolod.github.io.com/Vsevolod.github.io.com/post/second-brain/5_hu11706442280742795153.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;299&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;И перейдя по ссылке проверил результат отображения написанного поста&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Отображение поста при переходе по ссыле на сайте&#34; srcset=&#34;
+               /Vsevolod.github.io.com/post/second-brain/6_hu3338692117743458357.webp 400w,
+               /Vsevolod.github.io.com/post/second-brain/6_hu2360427911193835009.webp 760w,
+               /Vsevolod.github.io.com/post/second-brain/6_hu17477150677618854619.webp 1200w&#34;
+               src=&#34;http://localhost:1313/Vsevolod.github.io.com/Vsevolod.github.io.com/post/second-brain/6_hu3338692117743458357.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;382&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h1 id=&#34;выводы&#34;&gt;Выводы&lt;/h1&gt;
+&lt;p&gt;В результате проделанной работы я научился редактировать личную инфомацию на сайте, менять фотографию, а также публиковать новые посты.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Создаю учетную запись на портале GitHub</title>
       <link>http://localhost:1313/Vsevolod.github.io.com/post/get-started/</link>
-      <pubDate>Fri, 27 Oct 2023 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 21 Sep 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/Vsevolod.github.io.com/post/get-started/</guid>
       <description>&lt;h1 id=&#34;цель-работы&#34;&gt;Цель работы&lt;/h1&gt;
 &lt;p&gt;Научиться работать с системой контроля версий git. Ознакомиться и испробовать базовые конфигурации. Загрузить данные из репозитория и изменить их при помощи функций git.&lt;/p&gt;
@@ -262,260 +478,53 @@
     </item>
     
     <item>
-      <title>🧠 Sharpen your thinking with a second brain</title>
-      <link>http://localhost:1313/Vsevolod.github.io.com/post/second-brain/</link>
-      <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/Vsevolod.github.io.com/post/second-brain/</guid>
-      <description>&lt;p&gt;Create a personal knowledge base and share your knowledge with your peers.&lt;/p&gt;
-&lt;p&gt;Hugo Blox web framework empowers you with one of the most flexible note-taking capabilities out there.&lt;/p&gt;
-&lt;p&gt;Create a powerful knowledge base that works on top of a local folder of plain text Markdown files.&lt;/p&gt;
-&lt;p&gt;Use it as your second brain, either publicly sharing your knowledge with your peers via your website, or via a private GitHub repository and password-protected site just for yourself.&lt;/p&gt;
-&lt;h2 id=&#34;mindmaps&#34;&gt;Mindmaps&lt;/h2&gt;
-&lt;p&gt;Hugo Blox supports a Markdown extension for mindmaps.&lt;/p&gt;
-&lt;p&gt;With this open format, can even edit your mindmaps in other popular tools such as Obsidian.&lt;/p&gt;
-&lt;p&gt;Simply insert a Markdown code block labelled as &lt;code&gt;markmap&lt;/code&gt; and optionally set the height of the mindmap as shown in the example below.&lt;/p&gt;
-&lt;p&gt;Mindmaps can be created by simply writing the items as a Markdown list within the &lt;code&gt;markmap&lt;/code&gt; code block, indenting each item to create as many sub-levels as you need:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;
-&lt;code&gt;
-```markmap {height=&#34;200px&#34;}
-- Hugo Modules
-  - Hugo Blox
-  - blox-plugins-netlify
-  - blox-plugins-netlify-cms
-  - blox-plugins-reveal
-```
-&lt;/code&gt;
-&lt;/pre&gt;
-&lt;/div&gt;
-&lt;p&gt;renders as&lt;/p&gt;
-&lt;div class=&#34;markmap&#34; style=&#34;height: 200px;&#34;&gt;
-
-&lt;pre&gt;- Hugo Modules
-  - Hugo Blox
-  - blox-plugins-netlify
-  - blox-plugins-netlify-cms
-  - blox-plugins-reveal&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Anh here&amp;rsquo;s a more advanced mindmap with formatting, code blocks, and math:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;
-&lt;code&gt;
-```markmap
-- Mindmaps
-  - Links
-    - [Hugo Blox Docs](https://docs.hugoblox.com/)
-    - [Discord Community](https://discord.gg/z8wNYzb)
-    - [GitHub](https://github.com/HugoBlox/hugo-blox-builder)
-  - Features
-    - Markdown formatting
-    - **inline** ~~text~~ *styles*
-    - multiline
-      text
-    - `inline code`
-    -
-      ```js
-      console.log(&#39;hello&#39;);
-      console.log(&#39;code block&#39;);
-      ```
-    - Math: $x = {-b \pm \sqrt{b^2-4ac} \over 2a}$
-```
-&lt;/code&gt;
-&lt;/pre&gt;
-&lt;/div&gt;
-&lt;p&gt;renders as&lt;/p&gt;
-&lt;div class=&#34;markmap&#34; style=&#34;height: 500px;&#34;&gt;
-
-&lt;pre&gt;- Mindmaps
-  - Links
-    - [Hugo Blox Docs](https://docs.hugoblox.com/)
-    - [Discord Community](https://discord.gg/z8wNYzb)
-    - [GitHub](https://github.com/HugoBlox/hugo-blox-builder)
-  - Features
-    - Markdown formatting
-    - **inline** ~~text~~ *styles*
-    - multiline
-      text
-    - `inline code`
-    -
-      ```js
-      console.log(&#39;hello&#39;);
-      console.log(&#39;code block&#39;);
-      ```
-    - Math: $x = {-b \pm \sqrt{b^2-4ac} \over 2a}$&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;h2 id=&#34;highlighting&#34;&gt;Highlighting&lt;/h2&gt;
-&lt;p&gt;&lt;mark&gt;Highlight&lt;/mark&gt; important text with &lt;code&gt;mark&lt;/code&gt;:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;mark&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;Highlighted text&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;mark&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;callouts&#34;&gt;Callouts&lt;/h2&gt;
-&lt;p&gt;Use 
- (aka &lt;em&gt;asides&lt;/em&gt;, &lt;em&gt;hints&lt;/em&gt;, or &lt;em&gt;alerts&lt;/em&gt;) to draw attention to notes, tips, and warnings.&lt;/p&gt;
-&lt;p&gt;By wrapping a paragraph in &lt;code&gt;{{% callout note %}} ... {{% /callout %}}&lt;/code&gt;, it will render as an aside.&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{% callout note %}}
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;A Markdown aside is useful for displaying notices, hints, or definitions to your readers.
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{% /callout %}}
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;renders as&lt;/p&gt;
-&lt;div class=&#34;flex px-4 py-3 mb-6 rounded-md bg-primary-100 dark:bg-primary-900&#34;&gt;
-&lt;span class=&#34;pr-3 pt-1 text-primary-600 dark:text-primary-300&#34;&gt;
-  &lt;svg height=&#34;24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;1.5&#34; d=&#34;m11.25 11.25l.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0a9 9 0 0 1 18 0m-9-3.75h.008v.008H12z&#34;/&gt;&lt;/svg&gt;
-&lt;/span&gt;
-  &lt;span class=&#34;dark:text-neutral-300&#34;&gt;A Markdown aside is useful for displaying notices, hints, or definitions to your readers.&lt;/span&gt;
-&lt;/div&gt;
-&lt;p&gt;Or use the &lt;code&gt;warning&lt;/code&gt; callout type so your readers don&amp;rsquo;t miss critical details:&lt;/p&gt;
-&lt;div class=&#34;flex px-4 py-3 mb-6 rounded-md bg-yellow-100 dark:bg-yellow-900&#34;&gt;
-&lt;span class=&#34;pr-3 pt-1 text-red-400&#34;&gt;
-  &lt;svg height=&#34;24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;1.5&#34; d=&#34;M12 9v3.75m-9.303 3.376c-.866 1.5.217 3.374 1.948 3.374h14.71c1.73 0 2.813-1.874 1.948-3.374L13.949 3.378c-.866-1.5-3.032-1.5-3.898 0zM12 15.75h.007v.008H12z&#34;/&gt;&lt;/svg&gt;
-&lt;/span&gt;
-  &lt;span class=&#34;dark:text-neutral-300&#34;&gt;A Markdown aside is useful for displaying notices, hints, or definitions to your readers.&lt;/span&gt;
-&lt;/div&gt;
-&lt;h2 id=&#34;did-you-find-this-page-helpful-consider-sharing-it-&#34;&gt;Did you find this page helpful? Consider sharing it 🙌&lt;/h2&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>📈 Communicate your results effectively with the best data visualizations</title>
+      <title>Язык Markdown</title>
       <link>http://localhost:1313/Vsevolod.github.io.com/post/data-visualization/</link>
       <pubDate>Wed, 25 Oct 2023 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/Vsevolod.github.io.com/post/data-visualization/</guid>
-      <description>&lt;p&gt;Hugo Blox is designed to give technical content creators a seamless experience. You can focus on the content and Hugo Blox handles the rest.&lt;/p&gt;
-&lt;p&gt;Use popular tools such as Plotly, Mermaid, and data frames.&lt;/p&gt;
-&lt;h2 id=&#34;charts&#34;&gt;Charts&lt;/h2&gt;
-&lt;p&gt;Hugo Blox supports the popular 
- format for interactive data visualizations. With Plotly, you can design almost any kind of visualization you can imagine!&lt;/p&gt;
-&lt;p&gt;Save your Plotly JSON in your page folder, for example &lt;code&gt;line-chart.json&lt;/code&gt;, and then add the &lt;code&gt;{{&amp;lt; chart data=&amp;quot;line-chart&amp;quot; &amp;gt;}}&lt;/code&gt; shortcode where you would like the chart to appear.&lt;/p&gt;
-&lt;p&gt;Demo:&lt;/p&gt;
-
-
-
-
-&lt;div id=&#34;chart-287439165&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
-&lt;script&gt;
-  async function fetchChartJSON() {
-    console.debug(&#39;Hugo Blox fetching chart JSON...&#39;)
-    const response = await fetch(&#39;.\/line-chart.json&#39;);
-    return await response.json();
-  }
-
-  (function() {
-    let a = setInterval( function() {
-      if ( typeof window.Plotly === &#39;undefined&#39; ) {
-        console.debug(&#39;Plotly not loaded yet...&#39;)
-        return;
-      }
-      clearInterval( a );
-
-      fetchChartJSON().then(chart =&gt; {
-        console.debug(&#39;Plotting chart...&#39;)
-        window.Plotly.newPlot(&#39;chart-287439165&#39;, chart.data, chart.layout, {responsive: true});
-      });
-    }, 500 );
-  })();
-&lt;/script&gt;
-
-&lt;p&gt;You might also find the 
- useful.&lt;/p&gt;
-&lt;h2 id=&#34;diagrams&#34;&gt;Diagrams&lt;/h2&gt;
-&lt;p&gt;Hugo Blox supports the &lt;em&gt;Mermaid&lt;/em&gt; Markdown extension for diagrams.&lt;/p&gt;
-&lt;p&gt;An example &lt;strong&gt;flowchart&lt;/strong&gt;:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;```mermaid
-graph TD
-A[Hard] --&amp;gt;|Text| B(Round)
-B --&amp;gt; C{Decision}
-C --&amp;gt;|One| D[Result 1]
-C --&amp;gt;|Two| E[Result 2]
-```
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;renders as&lt;/p&gt;
-&lt;div class=&#34;mermaid&#34;&gt;graph TD
-A[Hard] --&gt;|Text| B(Round)
-B --&gt; C{Decision}
-C --&gt;|One| D[Result 1]
-C --&gt;|Two| E[Result 2]
-&lt;/div&gt;
-&lt;p&gt;An example &lt;strong&gt;sequence diagram&lt;/strong&gt;:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;```mermaid
-sequenceDiagram
-Alice-&amp;gt;&amp;gt;John: Hello John, how are you?
-loop Healthcheck
-    John-&amp;gt;&amp;gt;John: Fight against hypochondria
-end
-Note right of John: Rational thoughts!
-John--&amp;gt;&amp;gt;Alice: Great!
-John-&amp;gt;&amp;gt;Bob: How about you?
-Bob--&amp;gt;&amp;gt;John: Jolly good!
-```
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;renders as&lt;/p&gt;
-&lt;div class=&#34;mermaid&#34;&gt;sequenceDiagram
-Alice-&gt;&gt;John: Hello John, how are you?
-loop Healthcheck
-    John-&gt;&gt;John: Fight against hypochondria
-end
-Note right of John: Rational thoughts!
-John--&gt;&gt;Alice: Great!
-John-&gt;&gt;Bob: How about you?
-Bob--&gt;&gt;John: Jolly good!
-&lt;/div&gt;
-&lt;p&gt;An example &lt;strong&gt;class diagram&lt;/strong&gt;:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;```mermaid
-classDiagram
-Class01 &amp;lt;|-- AveryLongClass : Cool
-Class03 *-- Class04
-Class05 o-- Class06
-Class07 .. Class08
-Class09 --&amp;gt; C2 : Where am i?
-Class09 --* C3
-Class09 --|&amp;gt; Class07
-Class07 : equals()
-Class07 : Object[] elementData
-Class01 : size()
-Class01 : int chimp
-Class01 : int gorilla
-Class08 &amp;lt;--&amp;gt; C2: Cool label
-```
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;renders as&lt;/p&gt;
-&lt;div class=&#34;mermaid&#34;&gt;classDiagram
-Class01 &lt;|-- AveryLongClass : Cool
-Class03 *-- Class04
-Class05 o-- Class06
-Class07 .. Class08
-Class09 --&gt; C2 : Where am i?
-Class09 --* C3
-Class09 --|&gt; Class07
-Class07 : equals()
-Class07 : Object[] elementData
-Class01 : size()
-Class01 : int chimp
-Class01 : int gorilla
-Class08 &lt;--&gt; C2: Cool label
-&lt;/div&gt;
-&lt;p&gt;An example &lt;strong&gt;state diagram&lt;/strong&gt;:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;```mermaid
-stateDiagram
-[*] --&amp;gt; Still
-Still --&amp;gt; [*]
-Still --&amp;gt; Moving
-Moving --&amp;gt; Still
-Moving --&amp;gt; Crash
-Crash --&amp;gt; [*]
-```
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;renders as&lt;/p&gt;
-&lt;div class=&#34;mermaid&#34;&gt;stateDiagram
-[*] --&gt; Still
-Still --&gt; [*]
-Still --&gt; Moving
-Moving --&gt; Still
-Moving --&gt; Crash
-Crash --&gt; [*]
-&lt;/div&gt;
-&lt;h2 id=&#34;data-frames&#34;&gt;Data Frames&lt;/h2&gt;
-&lt;p&gt;Save your spreadsheet as a CSV file in your page&amp;rsquo;s folder and then render it by adding the &lt;em&gt;Table&lt;/em&gt; shortcode to your page:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-go&#34; data-lang=&#34;go&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;{{&amp;lt;&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;table&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;path&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;results.csv&amp;#34;&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;header&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;true&amp;#34;&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;caption&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;Table 1: My results&amp;#34;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;&amp;gt;}}&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;renders as&lt;/p&gt;
+      <description>&lt;p&gt;&lt;strong&gt;Markdown&lt;/strong&gt; — это язык разметки, который позволяет легко создавать отформатированный текст. Он разработан таким образом, чтобы текст в исходном виде оставался простым для чтения, но при этом мог быть преобразован в HTML, PDF или другие форматы. Markdown широко используется для написания документации, блогов, заметок и файлов readme.&lt;/p&gt;
+&lt;h3 id=&#34;основные-особенности-markdown&#34;&gt;Основные особенности Markdown:&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Простой синтаксис&lt;/strong&gt;: Для создания заголовков, списков, ссылок и других элементов форматирования используются простые символы. Например, символ &lt;code&gt;#&lt;/code&gt; создает заголовки, &lt;code&gt;*&lt;/code&gt; или &lt;code&gt;_&lt;/code&gt; — для выделения текста курсивом или жирным шрифтом.&lt;/p&gt;
+&lt;h4 id=&#34;пример-заголовка&#34;&gt;Пример заголовка:&lt;/h4&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;gh&#34;&gt;# Это заголовок первого уровня
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;gh&#34;&gt;&lt;/span&gt;&lt;span class=&#34;gu&#34;&gt;## Это заголовок второго уровня
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Минимальный набор правил&lt;/strong&gt;: Markdown использует минимальный набор правил, что делает его простым и доступным для всех. Например, чтобы сделать текст &lt;strong&gt;жирным&lt;/strong&gt; или &lt;em&gt;курсивным&lt;/em&gt;, нужно всего лишь добавить символы &lt;code&gt;**&lt;/code&gt; или &lt;code&gt;*&lt;/code&gt; соответственно.&lt;/p&gt;
+&lt;h4 id=&#34;пример-жирного-и-курсивного-текста&#34;&gt;Пример жирного и курсивного текста:&lt;/h4&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;**Это жирный текст**
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;ge&#34;&gt;*Это курсивный текст*&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Поддержка изображений&lt;/strong&gt;: В Markdown можно вставлять изображения, используя следующий синтаксис: &lt;code&gt;![Описание изображения](URL)&lt;/code&gt;.&lt;/p&gt;
+&lt;h4 id=&#34;пример-вставки-изображения&#34;&gt;Пример вставки изображения:&lt;/h4&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;![&lt;span class=&#34;nt&#34;&gt;Пример изображения&lt;/span&gt;](&lt;span class=&#34;na&#34;&gt;https://example.com/image.png&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;В результате, изображение с указанным URL будет вставлено в текст:&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Широкая поддержка&lt;/strong&gt;: Markdown поддерживается множеством платформ, таких как GitHub, Jupyter Notebooks, Bitbucket. Его часто используют для создания документации, файлов readme, блогов и статей.&lt;/p&gt;
+&lt;h4 id=&#34;пример-ссылки&#34;&gt;Пример ссылки:&lt;/h4&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[&lt;span class=&#34;nt&#34;&gt;Нажмите здесь, чтобы перейти на сайт&lt;/span&gt;](&lt;span class=&#34;na&#34;&gt;https://example.com&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Гибкость&lt;/strong&gt;: Текст, написанный на Markdown, можно легко конвертировать в HTML, PDF или Word, что делает его идеальным для многоплатформенной работы.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Читабельность&lt;/strong&gt;: Даже без рендеринга Markdown остается читаемым текстом. Это означает, что пользователи могут легко прочитать и понять текст в исходной разметке.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;примеры-использования-markdown&#34;&gt;Примеры использования Markdown:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Заголовки&lt;/strong&gt;: Использование одного или нескольких символов &lt;code&gt;#&lt;/code&gt; для создания заголовков разных уровней.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;gh&#34;&gt;# Заголовок первого уровня
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;gh&#34;&gt;&lt;/span&gt;&lt;span class=&#34;gu&#34;&gt;## Заголовок второго уровня
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;gu&#34;&gt;### Заголовок третьего уровня
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
 
 
 
@@ -530,59 +539,87 @@ Crash --&gt; [*]
 
 
 
-&lt;table class=&#34;table-auto w-full&#34;&gt;
-  
-    
-    
-    &lt;thead&gt;
-      &lt;tr&gt;  &lt;th class=&#34;border-b dark:border-slate-600 font-medium p-4 pt-0 pb-3 text-slate-400 dark:text-slate-200 text-left&#34;&gt;customer_id&lt;/th&gt;  &lt;th class=&#34;border-b dark:border-slate-600 font-medium p-4 pt-0 pb-3 text-slate-400 dark:text-slate-200 text-left&#34;&gt;score&lt;/th&gt;  &lt;/tr&gt;
-    &lt;/thead&gt;
-  
-  &lt;tbody&gt;
-  
-    &lt;tr&gt;
-      
-        
-          &lt;td data-table-dtype=&#34;number&#34; class=&#34;border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400&#34;&gt;1&lt;/td&gt;
-        
-      
-        
-          &lt;td data-table-dtype=&#34;number&#34; class=&#34;border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400&#34;&gt;0&lt;/td&gt;
-        
-      
-    &lt;/tr&gt;
-  
-    &lt;tr&gt;
-      
-        
-          &lt;td data-table-dtype=&#34;number&#34; class=&#34;border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400&#34;&gt;2&lt;/td&gt;
-        
-      
-        
-          &lt;td data-table-dtype=&#34;text&#34; class=&#34;border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400&#34;&gt;0.5&lt;/td&gt;
-        
-      
-    &lt;/tr&gt;
-  
-    &lt;tr&gt;
-      
-        
-          &lt;td data-table-dtype=&#34;number&#34; class=&#34;border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400&#34;&gt;3&lt;/td&gt;
-        
-      
-        
-          &lt;td data-table-dtype=&#34;number&#34; class=&#34;border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400&#34;&gt;1&lt;/td&gt;
-        
-      
-    &lt;/tr&gt;
-  
-  &lt;/tbody&gt;
-  
-    &lt;caption class=&#34;table-caption&#34;&gt;Table 1: My results&lt;/caption&gt;
-  
-&lt;/table&gt;
 
-&lt;h2 id=&#34;did-you-find-this-page-helpful-consider-sharing-it-&#34;&gt;Did you find this page helpful? Consider sharing it 🙌&lt;/h2&gt;
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;1.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Жирный и курсив&lt;/strong&gt;: Оборачивание текста в &lt;code&gt;**&lt;/code&gt; или &lt;code&gt;*&lt;/code&gt; для жирного или курсивного шрифта.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;**Жирный текст**
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;ge&#34;&gt;*Курсивный текст*&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;2.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Списки&lt;/strong&gt;: Используйте &lt;code&gt;-&lt;/code&gt;, &lt;code&gt;+&lt;/code&gt; или &lt;code&gt;*&lt;/code&gt; для создания ненумерованных списков и числа с точками для создания нумерованных списков.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;-&lt;/span&gt; Первый пункт
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;-&lt;/span&gt; Второй пункт
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;1.&lt;/span&gt; Первый элемент
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;2.&lt;/span&gt; Второй элемент
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;3.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Изображения&lt;/strong&gt;: Используйте синтаксис &lt;code&gt;![Описание изображения](URL)&lt;/code&gt; для вставки изображений.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;![&lt;span class=&#34;nt&#34;&gt;Пример изображения&lt;/span&gt;](&lt;span class=&#34;na&#34;&gt;https://example.com/image.png&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Ссылки&lt;/strong&gt;: Для создания гиперссылок используйте &lt;code&gt;[Текст ссылки](URL)&lt;/code&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;преимущества&#34;&gt;Преимущества:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Простой синтаксис&lt;/strong&gt;: Легок в освоении и использовании.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Гибкость&lt;/strong&gt;: Можно легко конвертировать в различные форматы (HTML, PDF и т.д.).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Широкая поддержка&lt;/strong&gt;: Поддерживается на многих платформах.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Читабельность&lt;/strong&gt;: Даже исходный текст Markdown легко читаем и понятен.&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     

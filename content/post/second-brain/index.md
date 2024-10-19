@@ -1,138 +1,74 @@
 ---
-title: 🧠 Sharpen your thinking with a second brain
-summary: Create a personal knowledge base and share your knowledge with your peers.
-date: 2023-10-26
+title: Добавлять и изменять данные о себею
+summary: Научится добавлять и изменять данные о себе. Научиться создавать новые посты на сайте.
+date: 2024-10-19
 authors:
   - admin
-tags:
-  - Second Brain
-  - Markdown
-image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
+
 ---
 
-Create a personal knowledge base and share your knowledge with your peers.
+# Цель работы
 
-Hugo Blox web framework empowers you with one of the most flexible note-taking capabilities out there.
+Провести работу с ранее созданным сайтом. Научится добавлять и изменять данные о себе. Научиться создавать новые посты на сайте.
 
-Create a powerful knowledge base that works on top of a local folder of plain text Markdown files.
+# Задание - добавить к сайту данные о себе.
 
-Use it as your second brain, either publicly sharing your knowledge with your peers via your website, or via a private GitHub repository and password-protected site just for yourself.
+## Список добавляемых данных.
 
-## Mindmaps
+- Разместить фотографию владельца сайта.
+- Разместить краткое описание владельца сайта (Biography).
+- Добавить информацию об интересах (Interests).
+- Добавить информацию от образовании (Education).
 
-Hugo Blox supports a Markdown extension for mindmaps.
+## Сделать пост по прошедшей неделе.
 
-With this open format, can even edit your mindmaps in other popular tools such as Obsidian.
+Добавить пост на тему по выбору:
+- Управление версиями. Git.
+- Непрерывная интеграция и непрерывное развертывание (CI/CD).
 
-Simply insert a Markdown code block labelled as `markmap` and optionally set the height of the mindmap as shown in the example below.
+# Выполнение работы
 
-Mindmaps can be created by simply writing the items as a Markdown list within the `markmap` code block, indenting each item to create as many sub-levels as you need:
+## Я начал работу с добавления данных о себе.
 
-<div class="highlight">
-<pre class="chroma">
-<code>
-```markmap {height="200px"}
-- Hugo Modules
-  - Hugo Blox
-  - blox-plugins-netlify
-  - blox-plugins-netlify-cms
-  - blox-plugins-reveal
-```
-</code>
-</pre>
-</div>
+Используя VScode и установленный в него GitHub Pull Request начал редактировать данные о себе открыв документ 
+D:\Vsevolod.github.io
 
-renders as
+Первым делом разместил новый файл avatar.jpg со своеё фотографией.
 
-```markmap {height="200px"}
-- Hugo Modules
-  - Hugo Blox
-  - blox-plugins-netlify
-  - blox-plugins-netlify-cms
-  - blox-plugins-reveal
-```
+![Замена фото](1.png)
 
-Anh here's a more advanced mindmap with formatting, code blocks, and math:
+- Далее разместил своё краткое описание (Biography).
 
-<div class="highlight">
-<pre class="chroma">
-<code>
-```markmap
-- Mindmaps
-  - Links
-    - [Hugo Blox Docs](https://docs.hugoblox.com/)
-    - [Discord Community](https://discord.gg/z8wNYzb)
-    - [GitHub](https://github.com/HugoBlox/hugo-blox-builder)
-  - Features
-    - Markdown formatting
-    - **inline** ~~text~~ *styles*
-    - multiline
-      text
-    - `inline code`
-    -
-      ```js
-      console.log('hello');
-      console.log('code block');
-      ```
-    - Math: $x = {-b \pm \sqrt{b^2-4ac} \over 2a}$
-```
-</code>
-</pre>
-</div>
 
-renders as
+- Добавил информацию о своих интересах (Interests).
 
-```markmap
-- Mindmaps
-  - Links
-    - [Hugo Blox Docs](https://docs.hugoblox.com/)
-    - [Discord Community](https://discord.gg/z8wNYzb)
-    - [GitHub](https://github.com/HugoBlox/hugo-blox-builder)
-  - Features
-    - Markdown formatting
-    - **inline** ~~text~~ *styles*
-    - multiline
-      text
-    - `inline code`
-    -
-      ```js
-      console.log('hello');
-      console.log('code block');
-      ```
-    - Math: $x = {-b \pm \sqrt{b^2-4ac} \over 2a}$
-```
 
-## Highlighting
+- И добавил информацию об образовании (Education).
 
-<mark>Highlight</mark> important text with `mark`:
+![Описание](2.png)
 
-```html
-<mark>Highlighted text</mark>
-```
+После зашел и проверил изменение на странице сайта, для того, чтобы проверить результат
 
-## Callouts
+![Сайт с добавлением изменений](3.png)
 
-Use [callouts](https://docs.hugoblox.com/reference/markdown/#callouts) (aka _asides_, _hints_, or _alerts_) to draw attention to notes, tips, and warnings.
+## Добавление поста
 
-By wrapping a paragraph in `{{%/* callout note */%}} ... {{%/* /callout */%}}`, it will render as an aside.
+Далее я перешел к созданию нового поста и его публикации.
+Для поста я выбрал тему "Создаю учетную запись на портале GitHub"
 
-```markdown
-{{%/* callout note */%}}
-A Markdown aside is useful for displaying notices, hints, or definitions to your readers.
-{{%/* /callout */%}}
-```
+![Создание нового поста](4.png)
 
-renders as
+И также как и ранее после добавления изменений в репозиторий, зашел на страницу сайта где нашёл опубликованный пост
 
-{{% callout note %}}
-A Markdown aside is useful for displaying notices, hints, or definitions to your readers.
-{{% /callout %}}
+![Отображение данных о посте на главной странице](5.png)
 
-Or use the `warning` callout type so your readers don't miss critical details:
+И перейдя по ссылке проверил результат отображения написанного поста
 
-{{% callout warning %}}
-A Markdown aside is useful for displaying notices, hints, or definitions to your readers.
-{{% /callout %}}
+![Отображение поста при переходе по ссыле на сайте](6.png)
 
-## Did you find this page helpful? Consider sharing it 🙌
+# Выводы
+
+В результате проделанной работы я научился редактировать личную инфомацию на сайте, менять фотографию, а также публиковать новые посты. 
+
+
+

@@ -1,157 +1,88 @@
 ---
-title: 📈 Communicate your results effectively with the best data visualizations
-summary: Use popular tools such as Plotly, Mermaid, and data frames.
+title: Язык Markdown
+summary: Markdown — это язык разметки, который позволяет легко создавать отформатированный текст.
 date: 2023-10-25
 authors:
   - admin
-tags:
-  - Hugo
-  - Hugo Blox
-  - Markdown
-image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
 ---
 
-Hugo Blox is designed to give technical content creators a seamless experience. You can focus on the content and Hugo Blox handles the rest.
+**Markdown** — это язык разметки, который позволяет легко создавать отформатированный текст. Он разработан таким образом, чтобы текст в исходном виде оставался простым для чтения, но при этом мог быть преобразован в HTML, PDF или другие форматы. Markdown широко используется для написания документации, блогов, заметок и файлов readme.
 
-Use popular tools such as Plotly, Mermaid, and data frames.
+### Основные особенности Markdown:
+1. **Простой синтаксис**: Для создания заголовков, списков, ссылок и других элементов форматирования используются простые символы. Например, символ `#` создает заголовки, `*` или `_` — для выделения текста курсивом или жирным шрифтом.
+   
+   #### Пример заголовка:
+   ```markdown
+   # Это заголовок первого уровня
+   ## Это заголовок второго уровня
+   ```
 
-## Charts
+2. **Минимальный набор правил**: Markdown использует минимальный набор правил, что делает его простым и доступным для всех. Например, чтобы сделать текст **жирным** или *курсивным*, нужно всего лишь добавить символы `**` или `*` соответственно.
+   
+   #### Пример жирного и курсивного текста:
+   ```markdown
+   **Это жирный текст**
+   *Это курсивный текст*
+   ```
 
-Hugo Blox supports the popular [Plotly](https://plot.ly/) format for interactive data visualizations. With Plotly, you can design almost any kind of visualization you can imagine!
+3. **Поддержка изображений**: В Markdown можно вставлять изображения, используя следующий синтаксис: `![Описание изображения](URL)`.
+   
+   #### Пример вставки изображения:
+   ```markdown
+   ![Пример изображения](https://example.com/image.png)
+   ```
+   В результате, изображение с указанным URL будет вставлено в текст:
 
-Save your Plotly JSON in your page folder, for example `line-chart.json`, and then add the `{{</* chart data="line-chart" */>}}` shortcode where you would like the chart to appear.
+4. **Широкая поддержка**: Markdown поддерживается множеством платформ, таких как GitHub, Jupyter Notebooks, Bitbucket. Его часто используют для создания документации, файлов readme, блогов и статей.
+   
+   #### Пример ссылки:
+   ```markdown
+   [Нажмите здесь, чтобы перейти на сайт](https://example.com)
+   ```
 
-Demo:
+5. **Гибкость**: Текст, написанный на Markdown, можно легко конвертировать в HTML, PDF или Word, что делает его идеальным для многоплатформенной работы.
 
-{{< chart data="line-chart" >}}
+6. **Читабельность**: Даже без рендеринга Markdown остается читаемым текстом. Это означает, что пользователи могут легко прочитать и понять текст в исходной разметке.
 
-You might also find the [Plotly JSON Editor](http://plotly-json-editor.getforge.io/) useful.
+### Примеры использования Markdown:
+- **Заголовки**: Использование одного или нескольких символов `#` для создания заголовков разных уровней.
+  
+  ```markdown
+  # Заголовок первого уровня
+  ## Заголовок второго уровня
+  ### Заголовок третьего уровня
+  ```
+  ![](1.png)
 
-## Diagrams
+- **Жирный и курсив**: Оборачивание текста в `**` или `*` для жирного или курсивного шрифта.
+  
+  ```markdown
+  **Жирный текст**
+  *Курсивный текст*
+  ```
+  ![](2.png)
 
-Hugo Blox supports the _Mermaid_ Markdown extension for diagrams.
+- **Списки**: Используйте `-`, `+` или `*` для создания ненумерованных списков и числа с точками для создания нумерованных списков.
+  
+  ```markdown
+  - Первый пункт
+  - Второй пункт
+  
+  1. Первый элемент
+  2. Второй элемент
+  ```
+  ![](3.png)
 
-An example **flowchart**:
+- **Изображения**: Используйте синтаксис `![Описание изображения](URL)` для вставки изображений.
+  
+  ```markdown
+  ![Пример изображения](https://example.com/image.png)
+  ```
 
-    ```mermaid
-    graph TD
-    A[Hard] -->|Text| B(Round)
-    B --> C{Decision}
-    C -->|One| D[Result 1]
-    C -->|Two| E[Result 2]
-    ```
+- **Ссылки**: Для создания гиперссылок используйте `[Текст ссылки](URL)`.
 
-renders as
-
-```mermaid
-graph TD
-A[Hard] -->|Text| B(Round)
-B --> C{Decision}
-C -->|One| D[Result 1]
-C -->|Two| E[Result 2]
-```
-
-An example **sequence diagram**:
-
-    ```mermaid
-    sequenceDiagram
-    Alice->>John: Hello John, how are you?
-    loop Healthcheck
-        John->>John: Fight against hypochondria
-    end
-    Note right of John: Rational thoughts!
-    John-->>Alice: Great!
-    John->>Bob: How about you?
-    Bob-->>John: Jolly good!
-    ```
-
-renders as
-
-```mermaid
-sequenceDiagram
-Alice->>John: Hello John, how are you?
-loop Healthcheck
-    John->>John: Fight against hypochondria
-end
-Note right of John: Rational thoughts!
-John-->>Alice: Great!
-John->>Bob: How about you?
-Bob-->>John: Jolly good!
-```
-
-An example **class diagram**:
-
-    ```mermaid
-    classDiagram
-    Class01 <|-- AveryLongClass : Cool
-    Class03 *-- Class04
-    Class05 o-- Class06
-    Class07 .. Class08
-    Class09 --> C2 : Where am i?
-    Class09 --* C3
-    Class09 --|> Class07
-    Class07 : equals()
-    Class07 : Object[] elementData
-    Class01 : size()
-    Class01 : int chimp
-    Class01 : int gorilla
-    Class08 <--> C2: Cool label
-    ```
-
-renders as
-
-```mermaid
-classDiagram
-Class01 <|-- AveryLongClass : Cool
-Class03 *-- Class04
-Class05 o-- Class06
-Class07 .. Class08
-Class09 --> C2 : Where am i?
-Class09 --* C3
-Class09 --|> Class07
-Class07 : equals()
-Class07 : Object[] elementData
-Class01 : size()
-Class01 : int chimp
-Class01 : int gorilla
-Class08 <--> C2: Cool label
-```
-
-An example **state diagram**:
-
-    ```mermaid
-    stateDiagram
-    [*] --> Still
-    Still --> [*]
-    Still --> Moving
-    Moving --> Still
-    Moving --> Crash
-    Crash --> [*]
-    ```
-
-renders as
-
-```mermaid
-stateDiagram
-[*] --> Still
-Still --> [*]
-Still --> Moving
-Moving --> Still
-Moving --> Crash
-Crash --> [*]
-```
-
-## Data Frames
-
-Save your spreadsheet as a CSV file in your page's folder and then render it by adding the _Table_ shortcode to your page:
-
-```go
-{{</* table path="results.csv" header="true" caption="Table 1: My results" */>}}
-```
-
-renders as
-
-{{< table path="results.csv" header="true" caption="Table 1: My results" >}}
-
-## Did you find this page helpful? Consider sharing it 🙌
+### Преимущества:
+- **Простой синтаксис**: Легок в освоении и использовании.
+- **Гибкость**: Можно легко конвертировать в различные форматы (HTML, PDF и т.д.).
+- **Широкая поддержка**: Поддерживается на многих платформах.
+- **Читабельность**: Даже исходный текст Markdown легко читаем и понятен.
