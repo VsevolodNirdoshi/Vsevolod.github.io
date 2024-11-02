@@ -26,21 +26,32 @@ organizations:
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:your-email@example.com'
+    url: 'rahulnirdoshi22@gmail.com'
     label: E-mail Me
-  - icon: brands/x
-    url: https://twitter.com/GetResearchDev
-  - icon: brands/instagram
-    url: https://www.instagram.com/
-  - icon: brands/github
-    url: https://github.com/
-  - icon: brands/linkedin
-    url: https://www.linkedin.com/
-  - icon: academicons/google-scholar
+  - icon: brands/Etsy
+    url: https://www.elibrary.ru/
+    label: academicons/Elsevier
+  - icon: brands/google-scholar
     url: https://scholar.google.com/
-  - icon: academicons/orcid
-    url: https://orcid.org/
-
+    label: Google Scholar/
+  - icon: brands/orcid
+    url:  https://orcid.org/0009-0004-5215-1086
+    label: ORCID
+  - icon: academicons/mendeley
+    url: https://www.mendeley.com/
+    label: Mendeley
+  - icon: academicons/researchgate
+    url: https://www.researchgate.net/profile/Vsevolod-Nirdoshi
+    label: ResearchGate
+  - icon: academicons/academia
+    url: https://independent.academia.edu/VsevolodNirdoshi
+    label: Academia
+  - icon: brands/arxiv
+    url: https://arxiv.org/
+    label: arXiv
+  - icon: brands/github
+    url: https://github.com/VsevolodNirdoshi
+    label: GitHub
 interests:
   - Programming
 education:
